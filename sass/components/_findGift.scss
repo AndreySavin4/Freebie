@@ -1,0 +1,63 @@
+@import '../utils/colors';
+
+.findGift{
+    background-color: getColor('bg-socondary');
+}
+
+.findGift__list{
+}
+
+.findGift__item{
+    display: flex;
+
+   &:nth-child(2n){
+    flex-direction: row-reverse;
+}
+}
+
+.findGift__container{
+    display: flex;
+}
+
+.findGift__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+// Page 1
+
+.findGift__title{
+    width:433px;
+margin-bottom: 36px;
+
+font-size: 56px;
+font-weight: 600;
+}
+
+.findGift__text{
+    width: 422px;
+    margin-bottom: 60px;
+
+    font-size: 20px;
+    line-height:calc(28/20);
+}
+
+.findGift__btn{
+    @extend %isOrange;
+}
+
+// Page 2
+
+.findGift__subject{
+margin-bottom: 23px;
+
+    font-size: 32px;
+    line-height: calc(45/32);
+}
+
+.findGift__text-margin{
+    margin-bottom: 35px;
+}

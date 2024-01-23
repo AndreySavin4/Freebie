@@ -1,0 +1,11 @@
+$colors:(
+    'main':#000,
+    'secondary':#fff,
+    'accent':#F7941E,
+    'logo':#231F20,
+    'bg-socondary':#f1f1f2,
+);
+
+@function getColor($key){
+  @return map-get($colors,$key)
+}

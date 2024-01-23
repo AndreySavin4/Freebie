@@ -1,0 +1,23 @@
+@import '../utils/colors';
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.header__list{
+    display: flex;
+    gap:31px;
+}
+
+.header__link{
+    padding: 28px 0;
+
+    color: getColor('main');
+}
+
+.button{
+    @extend %button;
+}

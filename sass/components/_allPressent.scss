@@ -1,0 +1,35 @@
+.allPressent{
+    padding: 94px 0;
+}
+
+.allPressent__title{
+    margin-bottom: 23px;
+
+    text-align: center;
+    font-size: 32px;
+}
+
+.allPressent__subtitle{
+    margin-bottom: 57px;
+
+    text-align: center;
+    line-height:calc(24/18) ; 
+}
+
+.allPressent__list{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.allPressent__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &:hover,
+    &:focus{
+        box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+    }
+}
+

@@ -1,0 +1,23 @@
+@import '../utils/colors';
+
+%button{
+    display: inline-block;
+    padding: 10px 20px;
+
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid getColor('accent');
+
+   color:getColor('accent');
+   background-color: inherit;
+
+   cursor: pointer;
+}
+
+%isOrange{
+    @extend %button;
+    padding: 15px 24px;
+
+    color: getColor('secondary');
+    background-color: getColor('accent');
+}
