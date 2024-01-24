@@ -1,0 +1,40 @@
+@import '../utils/colors';
+
+.connection{
+height: 240px;
+
+    background-color: getColor("accent");
+}
+
+.connection__text{
+    font-size: 32px;
+    line-height: calc(45/32);
+}
+
+.connection__text-bold{
+    font-weight: 700;
+}
+
+.connection__list{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+
+.connection__link{
+    @extend %button;
+}
+
+.connection__link-black{
+padding: 18px 24px;
+
+    color: getColor('secondary');
+    background-color: getColor("main");
+}
+
+.connection__link-inheritWhite{
+    padding: 18px 24px;
+
+    border: 1px solid getColor('main');
+    color: getColor('main');
+}

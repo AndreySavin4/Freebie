@@ -45,7 +45,7 @@
               </li>
             </ul>
           </nav>
-          <a class="button">Gift finder</a>
+          <a class="button" href="#">Gift finder</a>
         </div>
       </div>
     </header>
@@ -57,29 +57,60 @@
       >
         Find a gift
       </h1>
-      <section class="findGift">
-        <div class="container findGift__container">
-          <div class="findGift__content">
-            <div class="content__wrap">
-              <p class="findGift__title">
-                Find a gift for your wife or girlfriend
-              </p>
-              <p class="findGift__text">
-                Struggling to find a gift for your wife or girlfriend? No
-                problem!
-              </p>
-              <a class="findGift__btn">Find gift now</a>
+      <div class="background__container">
+        <section class="findGift">
+          <div class="container flex__container">
+            <div class="content">
+              <div class="content__wrap">
+                <p class="findGift__title">
+                  Find a gift for your wife or girlfriend
+                </p>
+                <p class="findGift__text">
+                  Struggling to find a gift for your wife or girlfriend? No
+                  problem!
+                </p>
+                <a class="findGift__btn" href="#">Find gift now</a>
+              </div>
+            </div>
+
+            <img
+              width="50%"
+              srcset="./img/Background.jpg 1x, ./img/Background@2x.jpg 2x"
+              src="./img/Background.jpg"
+              alt="happy couple"
+            />
+          </div>
+        </section>
+
+        <section class="more">
+          <div class="container flex__container">
+            <img
+              width="50%"
+              srcset="
+                ./img/Media_Background.jpg    1x,
+                ./img/Media_Background@2x.jpg 2x
+              "
+              src="./img/Media Background.jpg"
+              alt="envelope"
+            />
+            <div class="content">
+              <div class="content__wrap">
+                <p class="more__title">How we work</p>
+                <p class="more__text">
+                  We’ve actually already asked hundreds of women what they want,
+                  and made a database with the results. All you have to do is
+                  take our short survey that only takes seconds, and our
+                  proprietary algorithm will match you with a few perfect gift
+                  options.
+                </p>
+                <button class="button" type="button" href="#">
+                  Learn More
+                </button>
+              </div>
             </div>
           </div>
-
-          <img
-            width="719"
-            srcset="./img/Background.jpg 1x, ./img/Background@2x.jpg 2x"
-            src="./img/Background.jpg"
-            alt="Happy couple"
-          />
-        </div>
-      </section>
+        </section>
+      </div>
 
       <section class="allPressent">
         <div class="container">
@@ -107,68 +138,118 @@
                   loading="lazy"
                 />
               </picture>
-
               <div class="allPressent__box">
                 <p class="allPressent__holiday">Birthday</p>
-                <a class="allPressent__link" href="">See More ›</a>
+                <a class="allPressent__link" href="">See More &#8250;</a>
               </div>
             </li>
             <li class="allPressent__item">
-              <img
-                class="allPressent__img"
-                src="./img/Rectangle-1.jpg"
-                alt="Gift"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  sizes="270px 100vw"
+                  srcset="
+                    ./img/Rectangle-1.webp    1x,
+                    ./img/Rectangle@2x-1.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  sizes="270px 100vw"
+                  srcset="./img/Rectangle-1.jpg 1x, ./img/Rectangle@2x-1.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="allPressent__img"
+                  src="./img/Rectangle-1.jpg"
+                  alt="Gift"
+                  loading="lazy"
+                />
+              </picture>
               <div class="allPressent__box">
                 <p class="allPressent__holiday">Anniversary</p>
-                <a class="allPressent__link" href="">See More ›</a>
+                <a class="allPressent__link" href="">See More &#8250;</a>
               </div>
             </li>
             <li class="allPressent__item">
-              <img
-                class="allPressent__img"
-                src="./img/Rectangle-2.jpg"
-                alt="Gift"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  sizes="270px 100vw"
+                  srcset="
+                    ./img/Rectangle-2.webp    1x,
+                    ./img/Rectangle@2x-2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  sizes="270px 100vw"
+                  srcset="./img/Rectangle-2.jpg 1x, ./img/Rectangle@2x-2.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="allPressent__img"
+                  src="./img/Rectangle-2.jpg"
+                  alt="Gift"
+                  loading="lazy"
+                />
+              </picture>
               <div class="allPressent__box">
                 <p class="allPressent__holiday">Valentine's Day</p>
-                <a class="allPressent__link" href="">See More ›</a>
+                <a class="allPressent__link" href="">See More &#8250;</a>
               </div>
             </li>
             <li class="allPressent__item">
-              <img
-                class="allPressent__img"
-                src="./img/Rectangle-3.jpg"
-                alt="Gift"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  sizes="270px 100vw"
+                  srcset="
+                    ./img/Rectangle-3.webp    1x,
+                    ./img/Rectangle@2x-3.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  sizes="270px 100vw"
+                  srcset="./img/Rectangle-3.jpg 1x, ./img/Rectangle@2x-3.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  class="allPressent__img"
+                  src="./img/Rectangle-3.jpg"
+                  alt="Gift"
+                  loading="lazy"
+                />
+              </picture>
               <div class="allPressent__box">
                 <p class="allPressent__holiday">Christmas</p>
-                <a class="allPressent__link" href="">See More ›</a>
+                <a class="allPressent__link" href="">See More &#8250;</a>
               </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <section>
-        <div class="container">
+      <section class="connection">
+        <div class="container flex__container">
           <ul>
             <li>
-              <p>Ready to get started?</p>
+              <p class="connection__text connection__text-bold">
+                Ready to get started?
+              </p>
             </li>
             <li>
-              <p>Sign up or contact us</p>
+              <p class="connection__text">Sign up or contact us</p>
             </li>
           </ul>
-          <ul>
-            <li>
-              <button>Find gift now</button>
+          <ul class="connection__list">
+            <li class="connection__item">
+              <a class="connection__link connection__link-black" href="#"
+                >Find gift now</a
+              >
             </li>
-            <li>
-              <button>how it works</button>
+            <li class="connection__item">
+              <a class="connection__link connection__link-inheritWhite" href="#"
+                >how it works</a
+              >
             </li>
           </ul>
         </div>

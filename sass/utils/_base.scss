@@ -1,8 +1,5 @@
-.container{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+@import '../utils/fonts';
+// visually-hidden
 
 .visually-hidden {
     position: absolute;
@@ -18,8 +15,10 @@
     overflow: hidden;
   }
 
+//   Base layout
+
 body {
-    font-family:$primary, sans-serif , serif;
+    font-family:getFont("primary"), sans-serif , serif;
     font-size: 18px;
     line-height: normal;
     font-weight: 400;

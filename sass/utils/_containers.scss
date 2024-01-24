@@ -1,0 +1,27 @@
+@import '../utils/colors';
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.background__container{
+    background-color: getColor('bg-socondary');
+}
+
+.flex__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}

@@ -1,3 +1,10 @@
-$primary:'Garamond';
-$secondary:'Homemade Apple';
-$tertiary:'Roboto';
+$fonts:(
+'primary':'Garamond',
+'secondary':'Homemade Apple',
+'tertiary':'Roboto'
+);
+
+
+@function getFont($key){
+    @return map-get($fonts, $key)
+}
