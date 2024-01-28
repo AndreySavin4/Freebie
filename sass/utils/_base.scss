@@ -1,4 +1,5 @@
 @import '../utils/fonts';
+@import '../utils/colors';
 // visually-hidden
 
 .visually-hidden {
@@ -22,6 +23,8 @@ body {
     font-size: 18px;
     line-height: normal;
     font-weight: 400;
+
+    color:getColor('main');
 }
 
 img {

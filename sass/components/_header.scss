@@ -16,6 +16,13 @@
     padding: 28px 0;
 
     color: getColor('main');
+
+   @include transition(color);
+
+   &:hover,
+   &:focus{
+     color:getColor('accent');
+   }
 }
 
 .button{

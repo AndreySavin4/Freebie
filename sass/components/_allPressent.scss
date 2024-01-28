@@ -54,6 +54,12 @@ margin-bottom: 74px;
     line-height: calc(19/14);
 
     color: getColor('main');
+
+    &:hover,
+    &:focus{
+      text-decoration: underline;
+      text-decoration-color: getColor('accent');
+    }
 }
 
 

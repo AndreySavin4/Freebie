@@ -103,9 +103,7 @@
                   proprietary algorithm will match you with a few perfect gift
                   options.
                 </p>
-                <button class="button" type="button" href="#">
-                  Learn More
-                </button>
+                <a class="button" href="#"> Learn More </a>
               </div>
             </div>
           </div>
@@ -113,7 +111,7 @@
       </div>
 
       <section class="allPressent">
-        <div class="container">
+        <div class="mini__container">
           <h2 class="allPressent__title">Gifts for all Occasions</h2>
           <p class="allPressent__subtitle">
             “Try our web app to find the best gifts for all occasions”
@@ -229,7 +227,7 @@
       </section>
 
       <section class="connection">
-        <div class="container flex__container">
+        <div class="mini__container flex__container">
           <ul>
             <li>
               <p class="connection__text connection__text-bold">
@@ -242,12 +240,12 @@
           </ul>
           <ul class="connection__list">
             <li class="connection__item">
-              <a class="connection__link connection__link-black" href="#"
+              <a class="button connection__link-black" href="#"
                 >Find gift now</a
               >
             </li>
             <li class="connection__item">
-              <a class="connection__link connection__link-inheritWhite" href="#"
+              <a class="button connection__link-inheritWhite" href="#"
                 >how it works</a
               >
             </li>
@@ -255,97 +253,124 @@
         </div>
       </section>
 
-      <section>
-        <div class="container">
-          <h2>Our Best Blogs Ever</h2>
-          <p>
+      <section class="bestBlog">
+        <div class="container mini__container">
+          <h2 class="bestBlog__title">Our Best Blogs Ever</h2>
+          <p class="bestBlog__pretitle">
             “Try our blog to find the best tips and tricks to select your gift”
           </p>
-          <div>
-            <img src="" alt="" />
-            <p>Mr. John Doe</p>
-            <h3>The best way to wish your wife</h3>
-            <button>Read More</button>
+          <div class="bestBlog__row">
+            <img
+              srcset="
+                ./img/Media.webp    1x,
+                ./img/Media.jpg     1x,
+                ./img/Media@2x.webp 2x,
+                ./img/Media@2x.jpg  2x
+              "
+              src="./img/Media.jpg"
+              alt="married couple"
+            />
+            <div class="bestBlog__wrap">
+              <p class="bestBlog__name">Mr. John Doe</p>
+              <p class="bestBlog__excerpt">The best way to wish your wife</p>
+              <a class="bestBlog__link" href="#">Read More</a>
+            </div>
           </div>
-          <ul>
-            <li>
-              <p>Database to find the gifts for your girlfriend</p>
-              <p>
+          <ul class="bestBlog__list">
+            <li class="bestBlog__item">
+              <p class="bestBlog__desc">
+                Database to find the gifts for your girlfriend
+              </p>
+              <p class="bestBlog__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore...
               </p>
-              <button>Read More</button>
+              <a class="bestBlog__more" href="#">Read More</a>
             </li>
-            <li>
-              <p>
+            <li class="bestBlog__item">
+              <p class="bestBlog__desc">
                 How Artificial Intelligence read your mind to find the best gift
               </p>
-              <p>
+              <p class="bestBlog__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore...
               </p>
-              <button>Read More</button>
+              <a class="bestBlog__more" href="#">Read More</a>
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer>
-      <nav>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">logo</a></li>
-        <li><a href="#">Sevices</a></li>
-        <li><a href="#">Blogs</a></li>
-      </nav>
+    <footer class="footer">
+      <div class="mini__container">
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Home</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">About Us</a>
+            </li>
+          </ul>
+          <a class="logo footer__logo" href="#">logo</a>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Sevices</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Blogs</a>
+            </li>
+          </ul>
+        </nav>
 
-      <ul>
-        <li>
-          <a href="">
-            <svg>
-              <use></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <svg>
-              <use></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <svg>
-              <use></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <svg>
-              <use></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <svg>
-              <use></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+        <ul class="footer__items">
+          <li class="footer__item">
+            <a class="footer__social" href="#">
+              <svg class="footer__icon" width="40" height="40">
+                <use href="./img/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__social" href="#">
+              <svg class="footer__icon" width="40" height="40">
+                <use href="./img/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__social" href="#">
+              <svg class="footer__icon" width="40" height="40">
+                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__social" href="#">
+              <svg class="footer__icon" width="40" height="40">
+                <use href="./img/symbol-defs.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__social" href="#">
+              <svg class="footer__icon" width="40" height="40">
+                <use href="./img/symbol-defs.svg#icon-pinterest"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>© 2010 — 2020</p>
-        </li>
-        <li>
-          <p>Privacy — Terms</p>
-        </li>
-      </ul>
+        <ul class="footer__privacys">
+          <li class="footer__privacy">
+            <p class="footer__holder">&#169; 2010 — 2020</p>
+          </li>
+          <li class="footer__privacy">
+            <p class="footer__holder">Privacy — Terms</p>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
